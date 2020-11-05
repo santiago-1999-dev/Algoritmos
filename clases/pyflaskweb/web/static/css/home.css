@@ -1,0 +1,15 @@
+a{
+  appearance: button;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 2px 3px #d41b1b;
+  padding-block-start: 10px;
+}
+body{
+  background-image: url("{{url_for ('static', filename = 'images/cultura.jpg')}}");
+}
