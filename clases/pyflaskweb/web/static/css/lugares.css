@@ -1,11 +1,108 @@
-h1{
-    color: darkslateblue;
+* {
+    box-sizing: border-box;
 }
-h2{
-    color: darkslategrey;
+body{
+  background: #C0C0C0;
+}
+.logo{
+  background: url(http://pluspng.com/img-png/c-png-210.png) no-repeat;
+  background-size: 30%;
+  float:left;
+  width:25%;
+  border: 2px solid #C0C0C0;
+  height: 80px;
+  
+}
+.menu{
+  float:left;
+  width:75%;
+  border: 5px solid #9E9E9E;
+  height: 80px;
+  color: #E0E0E0;
+  font-family: "arial";
+  background: #9E9E9E;
+
+}
+div{
+  float:left;
 }
 
-img {
-    height: 500px;
-    width: 400px;
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+.saludo{
+  background: url(http://canadagaminglaw.com/wp-content/uploads/2016/06/background1.jpg) no-repeat;
+  background-size:cover;
+  height: 900px;
+}
+.col-3 img{
+  width:100%;
+  height: 400px;
+}
+.video1{
+  
+  background-position: 50% 50%;
+  background-size:cover;
+  float:left;
+  width:25%;
+  border: 0px solid #000;
+  height: 7px;
+}
+.menu2{
+  float:left;
+  width:100%;
+  border: 5px solid #9E9E9E;
+  height: 80px;
+  color: #E0E0E0;
+  font-family: "arial";
+  background: #9E9E9E;
+
+}
+.menu3{
+  text-align:center;
+  float:left;
+  width:100%;
+  border: 3px solid #000;
+  height: 80px;
+  color: #fff;
+  font-family: "arial";
+  background: #000;
+}
+.prog img{
+  width:80%;
+  height: 400px;
+}
+
+.menu4{
+  text-align:center;
+  float:left;
+  width:100%;
+  height: 80px;
+  color: #fff;
+  font-family: "arial";
+  
+}
+
+.prog2 img{
+  width:70%;
+  height: 400px;
+}
+
+.menu5{
+  float:left;
+  width:100%;
+  border: 1px solid  #C0C0C0;
+  height: 200px;
+  color: #fff;
+  background:  #000;
+  font-family: "arial";
 }

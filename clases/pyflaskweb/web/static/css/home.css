@@ -7,9 +7,17 @@ a{
   height: 30px;
   border-radius: 20px;
   text-align: center;
-  box-shadow: 2px 3px #d41b1b;
+  box-shadow: 2px 3px #1b057a;
   padding-block-start: 10px;
 }
 body{
-  background-image: url("{{url_for ('static', filename = 'images/cultura.jpg')}}");
+  background-image: url("https://www.landuum.com/wp-content/uploads/2019/03/cultura_paisajeiluminado_landuum5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+.bt-group{
+  margin-top: 22%;
+  margin-left: 41.5%;
+  width: 50%;
 }
