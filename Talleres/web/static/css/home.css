@@ -1,0 +1,30 @@
+a{
+    appearance: button;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 2px 3px #3102ff;
+    padding-block-start: 10px;
+  }
+  body{
+    background-image: url("https://image.freepik.com/vector-gratis/fondo-concepto-medicina-ciencia_41814-21.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+  }
+  .bt-group{
+    margin-top: 15%;
+    margin-left: 35%;
+    width: 50%;
+  }
+  #title{
+      text-align: center;
+      max-width: 1000px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+  }

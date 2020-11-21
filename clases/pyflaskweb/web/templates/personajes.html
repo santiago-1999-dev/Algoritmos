@@ -2,75 +2,54 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel= "stylesheet" href="{{url_for('static', filename = 'css/personajes.css')}}">
+    <title>Galeria</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="{{url_for ('static', filename = 'css/personajes.css')}}">
 </head>
 
 <body>
-    <header id="home">
-        <div class="container-fluid header-content">
-            <h1 id="title">𝑬𝒒𝒖𝒊𝒕𝒂𝒄𝒊𝒐𝒏</h1>
-            <h2 id="header-quote">------------------------ <br><q>𝑼𝒏𝒂 𝒑𝒂𝒔𝒊𝒐𝒏 𝒑𝒐𝒓 𝒍𝒐𝒔 𝒄𝒂𝒃𝒂𝒍𝒍𝒐𝒔</q></h2>
-            <hr style="color: rgb(250, 249, 249); width: 25%;">
+  <h1>Personas que inspiran mi vida y han dejado una huella que quiero seguir</h1>
+   <div class="container">
+    <div class="foto1">
+        <div class="photo">
+            <a href=""><img src= "{{url_for ('static', filename = 'images/papa.jpg')}}" alt="Foto1" class="papa"></a>
+            <h2>"Roberto"</h2>
         </div>
-        <marquee>
-            <img src="https://userscontent2.emaze.com/images/f5242074-3fc0-4dd3-993e-045d96a329b0/5a327bce7c8ad92535a7338a7b907401.jpg" height="200">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQhcXQjukWcHszWUabKgwmkrX7A1fI2qQjnuA&usqp=CAU" height="200">
-            <img src="https://i.pinimg.com/originals/59/81/08/598108829d82b8e25754686507ae0de5.jpg" height="200">
-            <img src="https://i.pinimg.com/originals/69/25/90/6925908e00b516c92970cb243100c466.jpg" height="200">
-        </marquee>
-    </header>
-
-    <main class="container-fluid" id="main">
-        <div class="container-fluid short-biography" id="tribute-info">
-            <div id="img-div">
-                <img src="https://como-funciona.com/wp-content/uploads/2019/08/qu%C3%A9-es-la-equitaci%C3%B3n.jpg" alt="Foto de lior" class="img-lior"><br>
-                <caption>
-                    <p id="img-caption">𝑴𝒂𝒔 𝒒𝒖𝒆 𝒖𝒏 𝒈𝒖𝒔𝒕𝒐, 𝒖𝒏𝒂 𝒉𝒆𝒓𝒆𝒏𝒄𝒊𝒂:</p>
-                </caption>
-            </div>
-            <div class="short-biography-content">
-                <p>Es una pasion que nacio conmigo, una herencia que ha pasado de generacion en generacion.
-                    Es un estilo de vida, un amor incomprendido por los caballos, lo que hoy hace que yo los
-                    disfrute y quiera que mis hijos el día de mañana tengan esa perspectiva frente al campo
-                    y los animales. <a href="https://www.youtube.com/watch?v=jBsXwSlr1T4" target="_blank">principios basicos</a> 
-                    <br>
-                    A traves de mi vida he tenido diversas experiencias por con los caballos, desde caidas,
-                    glopes, rabias, frustracion, pero, a pesar de todo esto mi amor no ha cambiado, antes se 
-                    ha fortalecido y crecido al punto de proximamente querer tener mi finca ganadera con muchos 
-                    caballos, donde mis hijos puedan jugar y creecer con esta herencia eterna. 
-                    desde mis 8 años monto caballo y espero montar  hastas los 100. 
-
-                    
-                </p>
-                <a href="https://loscaballosflorez.weebly.com/album.html" target="_blank">Ver mas</a>
-                
-                <div class="photo-gallery">
-                    <h1>𝑷𝒖𝒓𝒂 𝒔𝒂𝒏𝒈𝒓𝒆:</h1>
-                    <a href=https://mundo-pecuario.com/tema176/razas_equinos/caballo_pura_sangre_ingles-930.html target="_blank">Raza inglesa</a>
-                    <img src="https://www.porque.es/wp-content/uploads/2015/10/caballo-pura-sangre.jpg"><br>
-                    <a href=https://loscaballosflorez.weebly.com/album.html target="_blank">Raza equina</a>
-                    <img src="https://www.pregonagropecuario.com/assets/images/upload/padrillo_pura_sangre.jpg"><br>  
-                </div>
-            </div>
+    </div>
+    <div class="foto2">
+        <div class="photo">
+            <a href=""><img src="{{url_for ('static', filename = 'images/mama.jpg')}}" alt="Foto1" class="mama"></a>
+            <h2>"Sandra"</h2>
         </div>
-        <label for="indoor"> 
-            <input id="" type="radio" name="indoor-outdoor">Me gustó 
-        </label>
-        <label for="indoor"> 
-            <input id="" type="radio" name="indoor-outdoor">No me gustó 
-        </label>
-    </main>
-
-    <footer>
-        <a href= "/home">pagina principal</a>
-        <div class="container-fluid footer" style="margin-bottom: 2%; text-align: center;">
-            <hr style="color: rgb(167, 36, 36); width: 75%; margin-top: 1.5%;">
-        <p>Editotial Betancur</p>
+    </div>
+    <div class="foto3">
+        <div class="photo">
+            <a href=""><img src="{{url_for ('static', filename = 'images/albert.jpg')}}" alt="Foto1" class="albert"></a>
+            <h2>"albert"</h2>
         </div>
-    </footer>
+    </div>
+    <div class="foto4">
+        <div class="photo">
+            <a href=""><img src="{{url_for ('static', filename = 'images/jesus.jpg')}}" alt="Foto1" class="jesus"></a>
+            <h2>"Jesús"</h2>
+        </div>
+    </div>
+    <div class="foto5">
+        <div class="photo">
+            <a href=""><img src="{{url_for ('static', filename = 'images/yo.jpg')}}" alt="Foto1" class="yo"></a>
+            <h2>"Santiago"</h2>
+        </div>
+    </div>
+    <div class="foto6">
+        <div class="photo">
+            <a href=""><img src="{{url_for ('static', filename = 'images/hermana.jpg')}}" alt="Foto1" class="hermana"></a>
+            <h2>"Daniela"</h2>
+        </div>
+    </div>
+</div>
+<div>
+    <a href= "/home">pagina principal</a>
+</div>
 </body>
 
 </html>
