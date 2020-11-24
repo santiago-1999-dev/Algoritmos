@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://plustatic.com/287/conversions/causas-urgencia-medica-large.jpg");
+    background-size: cover; 
+  }
+  
+  .centro{
+      margin: 0 auto;
+      width: 20%;
+  }
+  
+  h1{
+      text-align: center;
+      font-family: garamond;
+      color: dodgerblue;
+      font-style: italic;
+  }
+  
+  ol {
+      counter-reset: li; /* Inicia el contador */
+      list-style: none; /* Elimina el número por defecto */
+      *list-style: decimal; /* Continúa usando el número por defecto en IE6/7 */
+      font: 15px 'helvetica';
+      padding: 0;
+      margin-bottom: 4em;
+      text-shadow: 0 1px 0 black;
+  }
+   
+  ol ol {
+      margin: 0 0 0 2em;
+  }
+  
+  .rounded-list a{
+      position: relative;
+      display: block;
+      padding: .4em .4em .4em 2em;
+      *padding: .4em;
+      margin: .5em 0;
+      background: -webkit-linear-gradient(dimgray, darkgray);
+      background: -moz-linear-gradient(dimgray, darkgray);
+      background: -o-linear-gradient(dimgray, darkgray);
+      color: gainsboro;
+      text-decoration: none;
+      border-radius: .3em;
+      transition: all .3s ease-out;   
+  }
+   
+  .rounded-list a:hover{
+      background: -webkit-linear-gradient(dimgray, lightgray);
+      background: -moz-linear-gradient(dimgray, lightgray);
+      background: -o-linear-gradient(dimgray, lightgray);
+  }
+   
+  .rounded-list a:hover:before{
+      transform: rotate(360deg);  
+  }
+   
+  .rounded-list a:before{
+      content: counter(li);
+      counter-increment: li;
+      position: absolute; 
+      left: -1.3em;
+      top: 50%;
+      margin-top: -1.3em;
+      background: black;
+      height: 2em;
+      width: 2em;
+      line-height: 2em;
+      border: .1em solid dodgerblue;
+      text-align: center;
+      font-weight: bold;
+      border-radius: 2em;
+      transition: all .3s ease-out;
+  }
